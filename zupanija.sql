@@ -60,4 +60,14 @@ insert into mjesto (opcina,naziv) values
 (3,'Srijemske Laze'),
 (4,'Antonci');
 
+insert into zupan (ime,prezime) values
+('Stjepan','Kozic');
 
+insert into zupanija (naziv,zupan) values
+('Zagrebacka',5);
+
+insert into opcina (naziv,zupanija) values
+('Velika Gorica',5);
+
+insert into mjesto (opcina,naziv) values
+(5,'Trnje');
