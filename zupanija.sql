@@ -60,11 +60,4 @@ insert into mjesto (opcina,naziv) values
 (3,'Srijemske Laze'),
 (4,'Antonci');
 
-select * from zupan;
-
-select * from zupanija;
-
-select * from opcina;
-
-select * from mjesto;
 
