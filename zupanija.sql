@@ -71,3 +71,22 @@ insert into opcina (naziv,zupanija) values
 
 insert into mjesto (opcina,naziv) values
 (5,'Trnje');
+
+UPDATE zupan
+SET ime = 'Damir', prezime= 'Bajs'
+WHERE sifra = 5;
+
+UPDATE zupanija
+SET Naziv = 'Bjelovarsko Bilogorska', zupan= '5'
+WHERE sifra = 5;
+
+UPDATE opcina
+SET naziv = 'Kapela', zupanija= '5'
+WHERE sifra = 5;
+
+UPDATE mjesto
+SET opcina = '5', naziv= 'Lalici'
+WHERE sifra = 5;
+
+
+
